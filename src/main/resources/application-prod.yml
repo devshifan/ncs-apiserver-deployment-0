@@ -3,7 +3,7 @@ server.port: 9090
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://roundhouse.proxy.rlwy.net:16799/railway
+    url: jdbc:mysql://roundhouse.proxy.rlwy.net:16799/NcsCentralDB
     username: root
     password: yDXXUJCpXzcuKSogXkwhJBwJLzXtlGSY
     ddl-auto: update
