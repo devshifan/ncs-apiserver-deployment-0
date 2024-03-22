@@ -1,0 +1,15 @@
+server.port: 9090
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://roundhouse.proxy.rlwy.net:16799/railway
+    username: root
+    password: yDXXUJCpXzcuKSogXkwhJBwJLzXtlGSY
+    ddl-auto: update
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+      naming.physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+
