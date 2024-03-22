@@ -37,7 +37,8 @@ public class SecurityConfig {
        return httpSecurity.csrf(AbstractHttpConfigurer::disable)
                 .authorizeHttpRequests(auth->{
                     auth.requestMatchers(
-                                    "http://ncs-apiserver.up.railway.app/api/user/**",
+                                    //"http://ncs-apiserver.up.railway.app/api/user/**",
+                                    "/api/user/**",
                                     "/api/user-level/**"
 //                                            "/api/system-user/new-user",
 //                                            "/api/system-user/user-login",
